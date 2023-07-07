@@ -4,7 +4,8 @@
   "description": "Simple products dashboard backend with Express. This project is part of the Make It Real bootcamp.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
   },
   "keywords": [
     "express",
