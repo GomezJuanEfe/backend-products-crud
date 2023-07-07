@@ -6,6 +6,15 @@ const {
   deleteData
 } = require('./model');
 
+// Healthcheck
+const handleHealthcheck = (req, res) => {
+  try {
+    res.status(200).send('<h2>Ok</h2>');
+  } catch (error) {
+    res.status(400).send(error.message);
+  }
+}
+
 // Create - POST
  const handleCreateData = (req, res) => {
   try {
@@ -69,6 +78,7 @@ const handleDeleteData = (req, res) => {
 }
 
 module.exports = {
+  handleHealthcheck,
   handleCreateData,
   handleReadData,
   handleReadDataById,
