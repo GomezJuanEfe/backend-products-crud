@@ -1,0 +1,22 @@
+{
+  "name": "products-crud-backend",
+  "version": "1.0.0",
+  "description": "Simple products dashboard backend with Express. This project is part of the Make It Real bootcamp.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "API",
+    "Rest"
+  ],
+  "author": "Juan Felipe Gomez & Andy Peña",
+  "license": "MIT",
+  "devDependencies": {
+    "@makeitrealcamp/db-mock": "^1.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
